@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+}
+.home-body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("./Assets/—Pngtree—architectural\ cherry\ blossom\ japanese\ aesthetic_2446514.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inicio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8% 0;
+}
+.contenido{
+    max-width: 700px;
+}
+.contenido h2{
+    letter-spacing: 15px;
+    position: relative;
+    color: #DC143C;
+    left: 120px;
+    top: 50px;
+}
+.contenido h4{
+    font-size: 150px;
+}
+.contenido p{
+    font-size: 16px;
+    margin: 15px 0 30px;
+    line-height: 1.6;
+}
+.button{
+    display: inline-block;
+    padding: 10px 28px;
+    background-color: #DC143C;
+    border: 2px solid #DC143C;
+    border-radius: 10.9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    color: beige;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.home-img{
+    position: relative;
+    width: 780px;
+    min-height: 100vh;
+}
+.home-img .image{
+    max-width: 750px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100px;
+}
+ /* Akihabara styles page */
+
+.akihabara-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.pinimg.com/736x/e9/8d/5a/e98d5a5788893b9846455e946e058936.jpg");
+    color: white; 
+}
+.akihabara-inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+.akihabara-contenido{
+    max-width: 900px;
+    order: 2; 
+}
+.akihabara-img{
+    width: 400%;
+    height: 100vh;
+}
+.akihabara-img .akihabara-image{
+    width: 99%; 
+    height: 100%; 
+    object-fit: cover;
+}
+.city-text{
+    position: relative;
+    max-width: 100%;
+    top: 50px;
+    line-height: 1.5;
+    color: white;
+    padding: 40px;
+}
+.akihabaratext-1{
+    width: 5%;
+    writing-mode: vertical-rl;
+    transform: rotate(360deg);
+    margin-left: -31px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    color: #59ab88;
+}
+.city-text h2{
+    color: #59ab88;
+    margin-bottom: 10px;
+    letter-spacing: 0.3em;
+}
+.Shibuya-image{
+    width: 100%;
+    height: 400px;
+}
+.city-description{
+    width: 800px;
+}
+/* Estilos de osaka */
+
+.osaka-home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://getwallpapers.com/wallpaper/full/1/b/1/1090804-osaka-wallpaper-2048x1347-high-resolution.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.osaka-home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.5));
+}
+.content-right {
+    position: absolute;
+    right: 50px;
+    width: 40%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    top: 400px;
+}
+
+.Osaka-tittle {
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.osaka-description {
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    line-height: 1.6;
+}
+.content-left {
+    position: relative;
+    left: 30px;
+    width: 40%;
+    padding: 30px;
+    border-radius: 100%;
+    background-size: cover;
+    border-radius: 4px;
+    top: 300px;
+}
+
+.Osaka-tittle2 {
+    justify-content: center;
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+
+}
+
+.osaka-description2 {
+    background-color: white;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    line-height: 1.6;
+}
+.Osaka-image{
+    max-width: 100%;
+}
+/* creators styles */
+.creators-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-us {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://live.staticflickr.com/547/20332197581_1ab178231d_h.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us h1 {
+    padding: 0;
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.creators {
+    margin-left: 400px;
+    display: flex;
+    margin-top: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.creators h2 {
+    text-align: center; 
+}
+
+.creators .card-container {
+    margin-left:  10px;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.card {
+    border: 1px solid #ddd;
+    background-color: white;
+    margin: 60px;
+    padding: 10px;
+    width: 30%;
+    margin-top: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,9);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+.creator-1{
+    font-size: 40px;
+}
+.creator-2{
+    font-size: 40px;
+}
+.image-creators {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://wallpapercave.com/wp/wp1829927.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100vh;
+    box-sizing: border-box;
+}
+
